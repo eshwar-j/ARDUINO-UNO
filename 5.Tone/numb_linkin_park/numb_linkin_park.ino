@@ -1,7 +1,7 @@
 /*---------------------------------------------------------------------------- 
  * Author: Eshwar jorvekar
  * Created on 19 September, 2017
- * Description:
+ * Description: plays song intro
  *----------------------------------------------------------------------------*/
  
  /*************************************************
@@ -98,7 +98,7 @@
 #define D8  4699
 #define DS8 4978
 
-// notes in the numb:
+// notes in the song:
 int numb[] = {
 A4,C5,A4,D5,F5,E5,0,
 A4,C5,A4,F5,E5,C5,0,
@@ -111,7 +111,7 @@ int noteDurations[] = {
 };
 
 void setup() {
-  // iterate over the notes of the numb:
+  // iterate over the set of notes:
   for (int thisNote = 0; thisNote < 18; thisNote++) {
 
     // to calculate the note duration, take one second divided by the note type.
@@ -128,6 +128,4 @@ void setup() {
   }
 }
 
-void loop() {
-  // no need to repeat the numb.
-}
+void loop() {}

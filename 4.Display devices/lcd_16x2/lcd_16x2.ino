@@ -6,7 +6,7 @@
 
 #include<LiquidCrystal.h>
 
-LiquidCrystal lcd(12, 11, 5, 4, 3, 2);  // RS, E, D4-D7
+LiquidCrystal lcd(12, 11, 5, 4, 3, 2);  // RS, E, D4-D7, 4-bit mode
 
 void setup()
 {
